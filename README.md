@@ -3,10 +3,10 @@
 A simple, interactive quiz application built with vanilla HTML, CSS, and JavaScript. It presents multiple choice questions with a countdown timer, visual progress bar, and immediate feedback on selection. The app is contained in a single HTML file and requires no build tools or dependencies.
 
 
- Overview
+ Overview:
 This Quiz App was created to demonstrate core frontend development skills: DOM manipulation, event handling, state management, and responsive design. It includes a timer for each question, a progress bar to show quiz completion, and highlights the selected answer. The quiz data is stored in an array of objects, making it easy to add or modify questions.
 
- Features
+ Features:
  Multiple choice questions – four questions about web development basics.
  Countdown timer – 15 seconds per question; auto advances when time runs out.
  Progress bar – visually indicates how far you are in the quiz.
@@ -45,7 +45,7 @@ The entire application resides in a single index.html file:
    Functions – loadQuestion(), selectOption(), checkAnswer(), nextQuestion().
    Initial call to loadQuestion().
 
- Key Concepts Demonstrated
+ Key Concepts Demonstrated:
  DOM Manipulation: Creating elements dynamically, updating text and styles.
  Event Handling: Inline onclick and programmatic event listeners.
  State Management: Tracking current question, score, timer, and selected option.
@@ -55,7 +55,7 @@ The entire application resides in a single index.html file:
  Flexbox: Centering the quiz card on the page.
  Block Scoping: Using let and const appropriately.
 
- Future Enhancements
+ Future Enhancements:
  Randomize questions – shuffle the order each time.
  Add more questions – easily extend quizData.
  Local storage – save high scores.
